@@ -40,7 +40,8 @@
         <ol>
             <li>Security events</li>
             <li>Security risks and threats</li>
-            <li>Network activity, fraudulent activity</li>
+            <li>Network activity</li>
+            <li>Fraudulent activity</li>
             <li>User clickstreams and transactions</li>
             <li>Machine  behavior</li>
             <li>Capacity consumption</li>
@@ -82,6 +83,25 @@
     <section class="step slide" data-x="9000" data-y="-1500">
         <h1>Machine learning à la rescousse</h1><br/>
         <img src="img/archi-elk-ml.jpg" alt="Archi ELK ML" width="800">
+    </section>
+
+    <section class="step slide" data-x="9000" data-y="-1500">
+        <h1>Les solutions de log management du marché</h1><br/>
+        <ol>
+            <li>Splunk (payant)</li>
+            <li>Logentries (payant)</li>
+            <li>Graylog (open)</li>
+            <li>Elasticsearch - Logstash - Kibana (open)</li>
+            <li>Loggly (payant)</li>
+            <li>Silk (payant) : Solr + logstash + kibana (kafka)</li>
+            <li>Sumo Logic</li>
+            <li>JKool</li>
+            <li>Solr - Flume / Kafka - Hue (open)</li>
+            <li>ELSA</li>
+            <li>Logzilla open</li>
+            <li>Octopussy</li>
+            <li>Scribe</li>
+        </ol>
     </section>
 
     <section class="step slide" data-x="10000" data-y="-1500">
@@ -149,12 +169,13 @@
     </section>
 
     <section class="step slide" data-x="19000" data-y="-1500">
+        <span class="slide-corner"><img src="img/elk-stack.png" alt="ELK icon" height="42"/></span>
         <h1>The Elastic Product Portfolio</h1><br/>
         <img src="img/ELK-product-portfolio.jpg" alt="ELK portfolio" width="800">
     </section>
 
     <section class="step slide" data-x="20000" data-y="-1500">
-        <span class="slide-corner"><img src="img/graylog-icon.jpg" alt="Graylog icon" height="42" width="42"/></span>
+        <span class="slide-corner"><img src="img/elk-stack.png" alt="ELK icon" height="42"/></span>
         <h1>ELK stack - Pros</h1><br/>
         <ol>
             <li>ES très performant, robuste, scalable, très rapide</li>
@@ -170,7 +191,7 @@
     </section>
 
     <section class="step slide" data-x="21000" data-y="-1500">
-        <span class="slide-corner"><img src="img/graylog-icon.jpg" alt="Graylog icon" height="42" width="42"/></span>
+        <span class="slide-corner"><img src="img/elk-stack.png" alt="ELK icon" height="42"/></span>
         <h1>ELK stack - Cons</h1><br/>
         <ol>
             <li>Patterns groks ne couvrent pas tous les cas ex pour apache ou 5 logs sur 5888 passent au travers à cause d'un problème de parsing</li>
@@ -181,7 +202,72 @@
         </ol>
     </section>
 
+    <section class="step slide" data-x="22000" data-y="-1500">
+        <span class="slide-corner"><img src="img/qsos-logo.png" alt="ELK icon" height="42"/></span>
+        <h1>QSOS - La méthode d'évaluation</h1><br/>
+        <img src="img/qsos.png" alt="QSOS Logo" width="800">
+        <ol>
+            <li>..</li>
+        </ol>
+    </section>
 
+    <section class="step slide" data-x="23000" data-y="-1500">
+        <span class="slide-corner"><img src="img/qsos-logo.png" alt="ELK icon" height="42"/></span>
+        <h1>Les critères d'évaluation - les critères généraux</h1><br/>
+        <ol>
+            <li>open source</li>
+            <li>D - pérennité de la solution / obsolescence</li>
+            <li>équipe de développement active</li>
+            <li>visibilté de la roadmap et de l'issue tracker</li>
+            <li>forte communauté</li>
+            <li>faible coûts</li>
+            <li>qualité de la documentation</li>
+        </ol>
+    </section>
+
+    <section class="step slide" data-x="24000" data-y="-1500">
+        <span class="slide-corner"><img src="img/qsos-logo.png" alt="ELK icon" height="42"/></span>
+        <h1>Les critères d'évaluation - les critères fonctionnels</h1><br/>
+        <ol>
+            <li>facilité d'installation et maintenance</li>
+            <li>facilité de prise en main des outils</li>
+            <li>autonomie des utilisateurs pour l'analyse</li>
+            <li>gestion des accès</li>
+            <li>génération d'alertes</li>
+            <li>version mobile ?</li>
+        </ol>
+    </section>
+
+    <section class="step slide" data-x="25000" data-y="-1500">
+        <span class="slide-corner"><img src="img/qsos-logo.png" alt="ELK icon" height="42"/></span>
+        <h1>Les critères d'évaluation - les critères techniques</h1><br/>
+        <ol>
+            <li>D - self hosted</li>
+            <li>low latency</li>
+            <li>scalabilité</li>
+            <li>real time</li>
+            <li>modularité</li>
+            <li>interopérabilité, archi woa ?</li>
+            <li>polyvalance</li>
+            <li>container fiendly ?</li>
+        </ol>
+    </section>
+
+    <section class="step slide" data-x="26000" data-y="-1500">
+        <span class="slide-corner"><img src="img/qsos-logo.png" alt="ELK icon" height="42"/></span>
+        <h1>Les résultats</h1><br/>
+        <ol>
+            <li>...</li>
+        </ol>
+    </section>
+
+    <section class="step slide" data-x="26000" data-y="-1500">
+        <h1>Le bilan</h1><br/>
+        <ol>
+            <li>...</li>
+        </ol>
+    </section>
+       
     <footer class="step slide" data-x="1200" data-scale="0.5">
         <h1>Ressources</h1><br/>
         <p>Présentation disponible hébergée sur <a href="http://mfilotto.github.io/logs-presentation" target="_blank">Github Pages</a></p><br/>

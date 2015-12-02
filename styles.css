@@ -1,4 +1,7 @@
 .scroll {
+    font-family: "Courier New", Courier, monospace;
+    font-size:18px;
+    padding: 0 10px;
     width:800px;
     height:60px;
     background:#A3CBE0;

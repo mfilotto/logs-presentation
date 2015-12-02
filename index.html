@@ -5,6 +5,7 @@
     <title>Presentation Log Managment</title>
     <link href="css/impress.css" rel="stylesheet"/>
     <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
 <div id="impress">
@@ -60,12 +61,12 @@
         <div class="scroll">195.70.14.162 - - [12/Nov/2015:04:12:18 +1100] "GET /sites/default/files/js/js_33BaXx14mLWwIKRLHiDD1YUISrtmHDN9BKx9c77CeZ0.js HTTP/1.1" 200 826 "https://service-public.nc/" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"</div>
         <br/>
         <ol>
-            <li>Des formats de date hétérogènes</li>
+            <li>Des formats de dates hétérogènes</li>
             <li>Une structure de champs variable</li>
             <li>Des données non structurées</li>
-            <li>Des informations difficilement lisibles par un humain</li>
+            <li>Des informations illisibles par un humain</li>
             <li>Un volume très important</li>
-            <li>Une visibilité ou analyse impossible en l'état</li>
+            <li>Une visibilité et une analyse impossible en l'état</li>
         </ol>
     </section>
 
@@ -92,6 +93,19 @@
     <section class="step slide" data-x="7000" data-y="-1500">
         <h1>Principe d'Architecture</h1><br/>
         <img src="img/archi-elk.jpg" alt="Archi ELK" width="800">
+    </section>
+
+    <section class="step slide" data-x="7000" data-y="-1500">
+        <h1>Quelles problématiques posées ?</h1><br/>
+        <ol>
+            <li>Collecter les logs de tous le SI : avec une faible empreinte</li>
+            <li>Parser la donnée : RegExp avec un minimum de rejets</li>
+            <li>Enrichier la donnée : à partir de tables de référence</li>
+            <li>Traiter la donnée de masse : tendances, anomalies</li>
+            <li>Indexer la donnée : sur la base de mots clef</li>
+            <li>Visualiser la donnée hétérogène : de façon très visuelle</li>
+            <li>Alerter intelligemment : sur la base de la donnée consolidée</li>
+        </ol>
     </section>
 
     <section class="step slide" data-x="8000" data-y="-1500">

@@ -170,6 +170,8 @@
             <li>Prix excessif</li>
             <li>Apps (plugin) : peu robustes</li>
             <li>Useragent pas optimisé et inopérant</li>
+            <li>Sources d'information peu diversifiées</li>
+            <li>Fonctions d'agrégation uniquement par requêtage</li>
         </ol>
     </section>
 
@@ -181,7 +183,10 @@
         <span class="slide-corner"><img src="img/graylog-icon.jpg" alt="Graylog icon" height="42" width="42"/></span>
         <h1>Graylog - Pros</h1><br/>
         <ol>
-            <li>...</li>
+            <li>Open source</li>
+            <li>Construction facile de widgets</li>
+            <li>Fonctions d'agrégation par l'interface (sans requêtage)</li>
+            <li>Fonction de gestion des accès par streams et dashboards</li>
         </ol>
     </section>
 
@@ -191,6 +196,11 @@
         <ol>
             <li>Pas du tout intuitif</li>
             <li>Monolithique</li>
+            <li>Pas d'injection de fichier : complexifie la configuration</li>
+            <li>Outil de visualisation médiocre</li>
+            <li>Pas de sélection de la plage temporelle sur un graphique</li>
+            <li>Plage temporelle peu intuitive</li>
+            <li>Pas de composant map</li>
         </ol>
     </section>
 
@@ -209,15 +219,15 @@
         <h1>ELK stack - Pros</h1><br/>
         <ol>
             <li>Architecture très scalable, flexible et modulaire</li>
-            <li>Système très ouvert</li>
+            <li>Système très ouvert, grande communauté et adoption</li>
             <li>Chaque brique adresse une fonction très spécifique</li>
             <li>Compétences exploitables dans d'autres cas d'utilisation</li>
-            <li>Très grande communauté et adoption</li>
             <li>ES : Ecosystème dynamique, nombreux outils autour de ES</li>
             <li>ES : très performant, robuste, scalable, très rapide</li>
             <li>Logstash : filtres intégrés bien pratiques : geoip, useragent</li>
             <li>Kibana : facile à prendre en main, intuitif</li>
-            <li>Kibana : Plage temporelle facile d'utilisation</li>
+            <li>Kibana : fonctions d'agrégation par l'interface</li>
+            <li>Kibana : Plage temporelle facile d'accès et sur graphique</li>
         </ol>
     </section>
 
@@ -228,7 +238,7 @@
             <li>Difficile de trouver des configurations toutes faites</li>
             <li>Configuration à réaliser soit même</li>
             <li>Configuration manuelle pour la collecte</li>
-            <li>Patterns groks ne couvrent pas tous les cas ex pour apache ou 5 logs sur 5888 passent au travers à cause d'un problème de parsing</li>
+            <li>Rejets lors du parsing : ex pour apache 5 rejets sur 5888</li>
             <li>Certaines fonctions clef sous licence : gestion des accès, gestion des watchers</li>
         </ol>
     </section>
@@ -303,7 +313,7 @@
         <h1>Ressources</h1><br/>
         <p>Présentation disponible hébergée sur <a href="http://mfilotto.github.io/logs-presentation" target="_blank">Github Pages</a></p><br/>
         <p>logstash : <a href="https://www.youtube.com/watch?v=RuUFnog29M4">Video de référence</a></p>
-        
+        <p>ELK : <a href="https://www.youtube.com/watch?v=uxfvNwl_MGc">What is ELK and how can it help you discover, visualize and analyze your data?</a></p>
     </footer>
 
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10"></div>
